@@ -1,13 +1,16 @@
-- 👋 Hi, I’m @Devante7
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
--  I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+   Resource Server (RS)  server that provides operations on protected
+      resources, where operations require a valid access token issued by
+      an AS.
 
-<!---
-Devante7/Devante7 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+   Resource Owner (RO)  subject entity that may grant or deny operations
+      on resources it has authority upon.
+
+      Note: the act of granting or denying an operation may be manual
+      (i.e. through an interaction with a physical person) or automatic
+      (i.e. through predefined organizational rules).
+every sync 
+<!---every project 
+Devante7/Devante7 is a ✨ special ✨ repository because its `README.md` (dev) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->#!/usr/bin/env bash
 
@@ -22,5 +25,5 @@ git_head_version() {
     else
         git rev-parse --short=12 HEAD
     fi
-}
+}:test run for unknown sources
 
